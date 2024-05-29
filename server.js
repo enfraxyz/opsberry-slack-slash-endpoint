@@ -16,7 +16,7 @@ app.post('/slack/command', async (req, res) => {
     const response = await axios.post('https://api.opsberry.ai/v1/webhooks/664e7a5dd9d9bc0056c284ed/trigger', userData, {
       headers: {
         "Content-Type": "application/json",
-        "x-opsberry-auth": "5ae11d64-f8ba-4df4-a312-ce458945b160"
+        "x-opsberry-auth": "744812d8-1b3a-4072-a31d-5b46719fb5e9"
       }
     });
 
